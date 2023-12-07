@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maquetacion con Flexbox</title>
+    <link rel="stylesheet" href="./estilos.css" />
+  </head>
+  <body>
+
+    <header class="bar_superior">
+      <div class="encabezado">
+        <div class="encabezado-izq">
+          <div class="logo">
+            <figure>
+              <img src="./imagenes/logo.png" width="160px" alt="" />
+            </figure>
+          </div>
+        </div>
+        <div class="encabezado-der">
+          <div class="encabezado-primera-fila">
+            <div class="info-personal">
+              <a href="#" id="ver-carrito">Ver carrito</a>
+              <a href="#">Historial de pedidos</a>
+            </div>
+            <div class="caja-buscar">
+              <button id="boton-cambiar-color" class="boton-color"> Cambiar color</button>
+              <input
+                type="text"
+                placeholder="Productos, repuestos, búsqueda de palabras clave" />
+              <button>Buscar</button>
+            </div>
+          </div>
+          <div class="encabezado-segunda-fila">
+            <nav class="menu">
+              <a href="#">Inicio</a>
+              <a href="#">Sobre nosotros</a>
+              <a href="#">Productos</a>
+              <a href="#">Blog</a>
+              <a href="#">Nuevos</a>
+              <a href="#">Suporte</a>
+              <a href="#">Contactos</a>
+              <small style="color: white">800-555-5555</small>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="menu-lateral">
+      <aside class="lista-lateral">
+        <ul>
+          <li>Tecnologia blanda</li>
+          <li>Tecnologia dura</li>
+          <li>Tecologia fija</li>
+          <li>Tecnologia flexible</li>
+          <li>Tecnologia de producto</li>
+          <li>Tecnologia de operacion</li>
+          <li>Tecnologia de equipo</li>
+          <li>Tecnologia de punta</li>
+          <li>Tecnologia intermedia</li>
+        </ul>
+      </aside>
+      <div class="imagen-principal">
+      </div>
+    </div>
+    <main class="contenedor-principal">
+      <div class="contenedor">
+        <div class="lado-izquierdo">
+          <div class="caja-fila1"><h2>Tipos de tecnologia mas destacados: </h2></div>
+          <div class="caja-fila2">
+            <section class="productos-destacados">
+              <div class="cajas">
+                <div class="img-producto">
+                  <img src="./imagenes/imagen1.jpg" alt="imagen de producto" />
+                </div>
+                <div class="info-producto">
+                  <h2 class="titulo-producto">Tecnologia fija</h2>
+                  <p class="sku">SKU0</p>
+                  <p class="descripcion">
+                    Es la tecnología diseñada para cumplir con un solo propósito. Por lo tanto, no puede ser utilizada con fines diferentes para los cuales fue creada.
+                  </p>
+                  <a href="#" class="ver-mas">Ver mas»</a>
+                </div>
+              </div>
+              <div class="cajas">
+                <div class="img-producto">
+                  <img src="./imagenes/imagen2.jpg" alt="imagen de producto" />
+                </div>
+                <div class="info-producto">
+                  <h2 class="titulo-producto">Tecnologia flexible</h2>
+                  <p class="sku">SKU1</p>
+                  <p class="descripcion">
+                    La tecnología flexible es aquella que tiene varios usos, ya que puede adaptarse o complementarse a otras tecnologías o productos.
+                  </p>
+                  <a href="#" class="ver-mas">Ver mas »</a>
+                </div>
+              </div>
+              <div class="cajas">
+                <div class="img-producto">
+                  <img src="./imagenes/imagen2.jpg" alt="imagen de producto" />
+                </div>
+                <div class="info-producto">
+                  <h2 class="titulo-producto">Tecnologia de producto</h2>
+                  <p class="sku">SKU2</p>
+                  <p class="descripcion">
+                    Son todos los procesos, herramientas e información que hacen posible el desarrollo de un producto. 
+                  </p>
+                  <a href="#" class="ver-mas">Ver mas »</a>
+                </div>
+              </div>
+              <div class="cajas">
+                <div class="img-producto">
+                  <img src="./imagenes/imagen2.jpg" alt="imagen de producto" />
+                </div>
+                <div class="info-producto">
+                  <h2 class="titulo-producto">Tecnologia de operacion</h2>
+                  <p class="sku">SKU3</p>
+                  <p class="descripcion">
+                    Es la actualización constante de métodos, procedimientos, conocimientos y dispositivos a fin de impulsar mejoras en los procesos de producción.
+                  </p>
+                  <a href="#" class="ver-mas">Ver mas»</a>
+                </div>
+              </div>
+              <div class="cajas">
+                <div class="img-producto">
+                  <img src="./imagenes/imagen1.jpg" alt="imagen de producto" />
+                </div>
+                <div class="info-producto">
+                  <h2 class="titulo-producto">Tecnologia de equipo</em></h2>
+                  <p class="sku">SKU4</p>
+                  <p class="descripcion">
+                    Es la tecnología desarrollada por los propios fabricantes como complemento de sus productos. 
+                  </p>
+                  <a href="#" class="ver-mas">Ver mas »</a>
+                </div>
+              </div>
+              <div class="cajas">
+                <div class="img-producto">
+                  <img src="./imagenes/imagen1.jpg" alt="imagen de producto" />
+                </div>
+                <div class="info-producto">
+                  <h2 class="titulo-producto">Tecnologia de punta</h2>
+                  <p class="sku">SKU5</p>
+                  <p class="descripcion">
+                    Se trata de los conocimientos o dispositivos más avanzados para el momento en el que fueron diseñados.
+                  </p>
+                  <a href="#" class="ver-mas">Ver mas »</a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="lado-derecho">
+          <div class="clock">
+            <div class="caja-reloj" id="reloj"></div>
+          </div>
+          <div class="contar-click">
+            <div class="caja-contar" id="contar-click"> 0</div>
+            <button id="boton-click">Click para Contar</button>
+          </div>
+          <div class="imagen-derecho">
+            <div class="img-producto">
+              <img src="./imagenes/imagen4.jpg" alt="imagen de producto" />
+            </div>
+            <div class="img-producto">
+              <img src="./imagenes/imagen5.jpg" alt="imagen de producto" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="info-contactos">
+          <h3>Contactanos: </h3>
+          <p><i class="celular"></i> 63993842</p>
+          <p><i class="correo"></i> lidia.14149427@gmail.com</p>  
+        </div>
+        <div class="redes-sociales">
+          <h3>Siguenos en: </h3>
+          <a href="#" class="link-redes"><i class="whatsapp"></i> Whatsapp</a>
+          <a href="#" class="link-redes"><i class="fabebook"></i> Facebook</a>
+          <a href="#" class="link-redes"><i class="tik tok"></i> Tik Tok</a>
+          <a href="#" class="link-redes"><i class="instagram"></i> Instagram</a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
+<script src="./javaScrip.js"></script>
